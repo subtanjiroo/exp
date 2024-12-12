@@ -17,3 +17,5 @@ Lưu PAT trong credential store (tuỳ chọn):
 git config --global credential.helper store
 
 
+Kiểm tra domain repo:
+git remote -v
