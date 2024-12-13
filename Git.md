@@ -19,3 +19,5 @@ git config --global credential.helper store
 
 Kiểm tra domain repo:
 git remote -v
+
+git clone https://PAT@github.com/HungLM1/CCS_Tomishow
