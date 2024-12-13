@@ -1,0 +1,2 @@
+docker exec -it -u root <container_id> bash
+  chmod -R u+rwx /mnt/extra-addons
