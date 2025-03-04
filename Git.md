@@ -3,6 +3,7 @@ git config --global user.email "Email của bạn"
 
 Clone repository từ Git server:
 git clone https://<username>@<domain>/<username>/<repository>.git
+git clone https://PAT@github.com/HungLM1/CCS_Tomishow
 cd <repository>
 
 Hoặc khởi tạo mới:
@@ -20,4 +21,9 @@ git config --global credential.helper store
 Kiểm tra domain repo:
 git remote -v
 
-git clone https://PAT@github.com/HungLM1/CCS_Tomishow
+reload nginx:
+sudo systemctl reload nginx
+restart nginx:
+sudo systemctl restart nginx
+
+
