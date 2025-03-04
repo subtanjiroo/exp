@@ -23,6 +23,7 @@ git remote -v
 
 reload nginx:
 sudo systemctl reload nginx
+
 restart nginx:
 sudo systemctl restart nginx
 
