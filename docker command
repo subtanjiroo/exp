@@ -1,6 +1,6 @@
 docker exec -it -u root <container_id> bash  <--- Lệnh Truy Cập Container của Docker
   chmod -R u+rwx /mnt/extra-addons <---- Lệnh Cấp Quyền Truy cập cho các nhóm người dùng
-  chmod -R 0777 /mnt/extra-addons/tomishow/static/imgs <---- Lệnh Cấp Quyền Truy cập cho các nhóm người dùng (0777 = tất cả đối tượng)
+  chmod -R 0777 /mnt/extra-addons/tomishow/static/imgs <---- Lệnh Cấp Quyền Truy cập cho các nhóm người dùng (0777 = tất cả quyền)
   stat /mnt/extra-addons/tomishow/static/imgs <----- kiểm tra lịch sử truy cập
   ls -l /mnt/extra-addons/tomishow/static/imgs <-------- kiểm tra cụ thể các quyền
 docker ps <---------- kiểm tra các container đang chạy trong docker
