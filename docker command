@@ -6,3 +6,6 @@ docker exec -it -u root <container_id> bash  <--- Lệnh Truy Cập Container c�
 docker ps <---------- kiểm tra các container đang chạy trong docker
 
 sudo chmod -R 0777 ~/CCS_Tomishow/addons/tomishow/static/imgs
+
+
+Trường hợp docker bị treo tiến trình nên không khởi động được: wsl --unregister docker-desktop
