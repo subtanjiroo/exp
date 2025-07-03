@@ -22,3 +22,8 @@ docker exec ccsleandixcom_main-postgres-1 pg_dump -U odoo -d odoo `
   -t public.project_project `
   -t public.project_project_project_task_type_delete_wizard_rel `
   > "C:\Users\User\Desktop\project_export.sql"
+
+
+
+PS C:\Windows\system32> docker cp "C:\Users\User\Desktop\project_export.sql" ccsleandixcom_main2-postgres-1:/project_export.sql
+Successfully copied 588kB to ccsleandixcom_main2-postgres-1:/project_export.sql
