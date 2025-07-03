@@ -1,0 +1,24 @@
+docker exec ccsleandixcom_main-postgres-1 pg_dump -U odoo -d odoo `
+  -t public.project_collaborator `
+  -t public.project_favorite_user_rel `
+  -t public.project_milestone `
+  -t public.project_project_project_tags_rel `
+  -t public.project_project_stage `
+  -t public.project_project_stage_delete_wizard `
+  -t public.project_project_stage_project_project_stage_delete_wizard_rel `
+  -t public.project_share_collaborator_wizard `
+  -t public.project_share_wizard `
+  -t public.project_share_wizard_res_partner_rel `
+  -t public.project_tags `
+  -t public.project_tags_project_task_rel `
+  -t public.project_task `
+  -t public.project_task_recurrence `
+  -t public.project_task_type `
+  -t public.project_task_type_delete_wizard `
+  -t public.project_task_type_project_task_type_delete_wizard_rel `
+  -t public.project_task_type_rel `
+  -t public.project_task_user_rel `
+  -t public.project_update `
+  -t public.project_project `
+  -t public.project_project_project_task_type_delete_wizard_rel `
+  > "C:\Users\User\Desktop\project_export.sql"
